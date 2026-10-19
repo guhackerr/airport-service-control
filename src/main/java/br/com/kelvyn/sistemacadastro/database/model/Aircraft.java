@@ -59,9 +59,6 @@ public class Aircraft {
     private BigDecimal actualFuel;
 
     @ToString.Include
-    private BigDecimal capacity;
-
-    @ToString.Include
     private BigDecimal velocity;
 
     @ToString.Include

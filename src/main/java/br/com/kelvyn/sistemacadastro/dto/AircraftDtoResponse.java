@@ -2,11 +2,9 @@ package br.com.kelvyn.sistemacadastro.dto;
 
 import lombok.*;
 
-//MUDAR CLASSE DEPOIS
-
-@Getter 
-@Setter 
-@AllArgsConstructor 
+@Getter
+@Setter
+@AllArgsConstructor
 @NoArgsConstructor
 @ToString(onlyExplicitlyIncluded = true)
 @Builder
