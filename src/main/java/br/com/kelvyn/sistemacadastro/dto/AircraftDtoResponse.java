@@ -1,8 +1,5 @@
 package br.com.kelvyn.sistemacadastro.dto;
 
-import java.math.BigDecimal;
-import java.time.LocalDate;
-
 import lombok.*;
 
 //MUDAR CLASSE DEPOIS
