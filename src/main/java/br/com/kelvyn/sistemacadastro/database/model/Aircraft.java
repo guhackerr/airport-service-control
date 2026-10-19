@@ -8,8 +8,6 @@ import lombok.*;
 
 @Entity
 @Table(name = "aircraft_db")
-@DiscriminatorColumn(name = "AIRCRAFT_Type")
-@DiscriminatorValue(value = "DEFAULT")
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
@@ -35,6 +33,9 @@ public class Aircraft {
 
     @ToString.Include
     private String description;
+
+    @ToString.Include
+    private String localization;
 
     @ToString.Include
     private String serialNumber;
@@ -66,6 +67,4 @@ public class Aircraft {
     @ToString.Include
     private BigDecimal acceleration;
 
-    @ToString.Include
-    private BigDecimal maxTakeoffWeight; 
 }

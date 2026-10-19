@@ -1,0 +1,18 @@
+1. CLIENTE
+   Envia um JSON com os dados do helicóptero
+          |
+          v
+2. CONTROLLER
+   Recebe os dados em DTO
+          |
+          v
+3. SERVICE
+   Valida as regras, converte AircraftDTO em Aircraft
+          |
+          v
+4. REPOSITORY
+   Recebe a entidade Aircraft e salva no banco
+          |
+          v
+5. BANCO DE DADOS
+   Registra a aeronave
